@@ -82,13 +82,15 @@
     width: 74%;
 }
 .gmail-section{
+    width: 75%;
     display: flex;
-    margin-top: 20px;
+    margin: 30px 0 ;
+    justify-content: space-between;
     padding: 5px;
-    width: 62%;
     background-color: #fff
 }
 .gmail-section>input{
+    width: 75%;
     padding: 0px 77px 0px 15px;
     position: relative;
     top: -2px;
@@ -104,6 +106,7 @@
 }
 .gmail-section>button{
     padding: 13px 57px;
+    width: 35%;
     color: #fff;
     border: none;
     background-color: #8bb7a2;
@@ -198,7 +201,7 @@
     width: 50%;
 }
 .body-image>img{
-    width: 617px;
+    width: -webkit-fill-available;
 }
 .lets-talk-body{
     padding: 14px 45px;
@@ -270,8 +273,9 @@
     cursor: pointer;
 }
 .people-right-container>img{
-    width: 616px;
-    height: 490px;
+    width: 100%;
+    width: -webkit-fill-available;
+    width: fill-available;
 }
 .container-team-number{
     margin-top: 10%;
@@ -360,4 +364,7 @@ footer{
     color: #838587;
     font-family: 'Poppins';
     padding: 13px 0px;
+}
+.nav-icon{
+    display: none;
 }
